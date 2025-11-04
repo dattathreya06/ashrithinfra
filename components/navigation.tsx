@@ -13,7 +13,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-30">
           {/* Logo */}
             <Link href="/" className="flex items-center gap-2 pt-4">
-            <div className="w-35 h-30">
+            <div className="w-35 h-36">
               <img 
               src="/logo-a.png" 
               alt="Ashrith Logo"
