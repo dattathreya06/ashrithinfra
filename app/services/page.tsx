@@ -126,16 +126,7 @@ export default function Services() {
               </button>
             ))}
           </div>
-            {/* Garden Maintenance Gallery */}
-          {selectedService.id === "garden" && (
-            <div className="mt-16">
-              <div className="mb-12">
-                <h2 className="text-4xl font-bold text-gray-900 mb-4 pb-4">Garden Maintenance Gallery</h2>
-                <p className="text-xl text-gray-600">Explore our recent projects and transformations</p>
-              </div>
-              <GardenGallery />
-            </div>
-          )}
+
           {/* Selected Service Details */}
           <div className={`bg-gradient-to-br ${selectedService.bgColor} rounded-2xl p-12 shadow-2xl text-white`}>
             <div className="flex items-start gap-6 mb-8">
@@ -191,7 +182,16 @@ export default function Services() {
             </div>
           </div>
 
-       
+          {/* Garden Maintenance Gallery */}
+          {selectedService.id === "garden" && (
+            <div className="mt-16">
+              <div className="mb-12">
+                <h2 className="text-4xl font-bold text-gray-900 mb-4">Garden Maintenance Gallery</h2>
+                <p className="text-xl text-gray-600">Explore our recent projects and transformations</p>
+              </div>
+              <GardenGallery />
+            </div>
+          )}
         </div>
       </section>
 

@@ -16,35 +16,34 @@ export default function GardenGallery() {
     {
       id: 1,
       title: "Garden Design ",
-      image: "/g1.jpg",
+      image: "./g1.jpg",
     },
     {
       id: 2,
-      title: "Garden Design ",
-      image: "g2.jpg",
+      title: "Garden Design & Planning",
+      image: "./g2.jpg",
     },
     {
       id: 3,
       title: "Lawn Maintenance",
-      image: "g3.jpg",
+      image: "./g3.jpg",
     },
     {
       id: 4,
       title: "Plant Care",
-      image: "g4.jpg",
+      image: "./g4.jpg",
     },
     {
       id: 5,
       title: "Landscape Design",
-      image: "g5.jpg",
+      image: "./g5.jpg",
     },
     {
       id: 6,
       title: "Seasonal Garden",
-      image: "g6.jpg",
+      image: "./g6.jpg",
     },
-  
- 
+    
   ]
 
   const imagesPerRow = 3
